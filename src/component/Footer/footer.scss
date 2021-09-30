@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--first-color-dark);
+    width: 100%;
+    padding: 25px 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    .title{
+        font-size: 19px;
+    }
+    .desc{
+        font-size: 14px;
+        padding: 12px 0;
+    }
+    .icons{
+        i{
+            padding: 0 15px;
+        }
+    }
+    p{
+        padding-top: 10px;
+        font-size: 9px;
+    }
+}

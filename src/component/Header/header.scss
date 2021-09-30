@@ -1,0 +1,99 @@
+#header{
+    height: calc(100vh - 56px);
+    background: #000;
+    width: 100%;
+    .container{
+        padding-top: 14vh;
+        .home__data{
+            color: #fff;
+            border-left: 4px solid #fff;
+            border-radius: 4px;
+            padding-left: 25px;
+            width: fit-content;
+            height: 100%;
+            .greating{
+                font-size: 25px;
+                font-family: 'Poppins' ,sans-serif;
+            }
+            h1{
+                padding: 15px 0 10px;
+                font-size: 66px;
+            }
+            .developer{
+                font-size: 20px;
+            }
+            a{
+                border: 2px solid #fff;
+                padding: 13px 33px;
+                font-size: 23px;
+                border-radius: 15px;
+                display: block;
+                width: fit-content;
+                margin-top: 20px;
+                &:hover{
+                    background-color: crimson;
+                    color: #fff;
+                    border-width: 2.7px;
+                    border-color: crimson;
+                    transition: .7s linear;
+                }
+            }
+        }
+        .socal__icons{
+            display: flex;
+            padding: 25px 0 0 25px;
+            a{
+                i{
+                    color: #fff;
+                    padding: 0 20px;
+                    font-size: 23px;
+                }
+                &:hover{
+                    i{
+                        color: crimson;
+                    }
+                }
+            }
+        }
+    }
+    .back__man{
+        width: 500px;
+        position: absolute;
+        bottom: 0;
+        right: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .back__man{
+        width: 400px !important;
+        right: 0 !important;
+    }
+}
+@media (max-width: 577px) {
+    .back__man{
+        width: 350px !important;
+        right: -20px !important;
+    }
+    .home__data{
+        .greating{
+            font-size: 19px !important;
+        }
+        h1{
+            font-size: 55px !important;
+        }
+        .developer{
+            font-size: 16px !important;
+        }
+    }
+    .socal__icons{
+        i{
+            padding: 0 15px !important;
+            font-size: 19px !important;
+        }
+    }
+}
+
+@media (max-width: 510px) {
+    .back__man{display: none;}
+}

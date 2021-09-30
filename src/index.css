@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*,h1,h2,h3,h4,h5,ul,li,ol,p,div,span{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box ;
+}
+
+:root{
+    --first-color: #3e0e12;
+    --first-color-dark: #2f0a06;
+    --text-color: #524748;
+    --text-color-light: #7b6f71;
+    --first-color-lighten: #fbf9f9;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+li{list-style-type: none;}
+
+.page-header{
+    font-size: 38px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h4.sub__title{
+    font-family: 'Ubuntu', sans-serif;
+    border-left: 1.7px solid crimson;
+    border-right: 1.7px solid crimson;
+    padding: 0 12px;
+    color: crimson;
+    width: fit-content;
+    margin: 0 auto;
+}
+        /* --------text animation keyframes--------- */
+
+@keyframes textTopAnim {
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes textRightAnim {
+    from{
+        transform: translateX(30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes textBottomAnim {
+    from{
+        transform: translateY(30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes textLeftAnim {
+    from{
+        transform: translateX(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textRightAnimIcon {
+    from{
+        transform: translateX(60px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes textBottomAnimIcon {
+    from{
+        transform: translateY(60px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes textLeftAnimIcon {
+    from{
+        transform: translateX(-60px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+        /* ------ animation classes ------ */
+.textTopAnim{
+    animation-name: textTopAnim;
+}
+.textRightAnim{
+    animation-name: textRightAnim;
+}
+.textLeftAnim{
+    animation-name: textLeftAnim;
+}
+.textBottomAnim{
+    animation-name: textBottomAnim;
+}
+
+.textRightAnimIcon{
+    animation-name: textRightAnim;
+}
+.textLeftAnimIcon{
+    animation-name: textLeftAnim;
+}
+.textBottomAnimIcon{
+    animation-name: textBottomAnim;
+}

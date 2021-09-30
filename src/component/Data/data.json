@@ -1,0 +1,14 @@
+{
+    "nav__items": [
+        {"name": "asosiy", "route": "/"},
+        {"name": "haqida", "route": "/about"},
+        {"name": "portfolio", "route": "/portfolio"},
+        {"name": "aloqa", "route": "/contact"}
+    ],
+    "infoCard": [
+        {"name": "Joylashuv", "info": "Toshkent, Mirzo Ulug'bek", "icon": "fas fa-building", "link": "https://t.me/Diyor1023"},
+        {"name": "Telefon", "info": "Telefont ishlatmayman", "icon": "fas fa-phone", "link": "https://t.me/Diyor1023"},
+        {"name": "Telegram", "info": "@Diyor1023", "icon": "fab fa-telegram-plane", "link": "https://t.me/Diyor1023"},
+        {"name": "E-mail", "info": "qiyorq3arshi@gmail.com", "icon": "fas fa-envelope", "link": "https://t.me/Diyor1023"}
+    ]
+}
